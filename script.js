@@ -53,19 +53,40 @@ const perguntas = [
         alternativas: [
             {
                 texto: "coruja",
-                afirmacao: "Usadas para enviar cartas e pacotes. Inteligentes e capazes de encontrar qualquer destinatário."
+                afirmacao: "Usadas para enviar cartas e pacotes. aAs corujas são Inteligentes e capazes de encontrar qualquer destinatário."
             },
             {
                 texto: "rato",
-                afirmacao: "Pequenos, inteligentes e leais. Fáceis de cuidar."
+                afirmacao: "Ratos sao animais Pequenos, inteligentes e leais. Fáceis de cuidar."
             },
             {
                 texto: "gato",
-                afirmacao: "Independentes, bons caçadores e sensíveis a magia negra.." 
+                afirmacao: "Gatos são Independentes, bons caçadores e sensíveis a magia negra.." 
             },
             {
                 texto: "sapos",
-                afirmacao: "Menos comuns, podem ser usados em poções. Preferidos por bruxos que gostam de animais excêntricos. "
+                afirmacao: "Menos comuns, podem ser usados em poções.Os sapos são Preferidos por bruxos que gostam de animais excêntricos. "
+            }
+        ]
+    },
+     {
+        enunciado: "qual dessas criaturas magicas vc mais gosta?",
+        alternativas: [
+            {
+                texto: "hipogrifo",
+                afirmacao: "Vc e destemid mas tambem muit corajoso."
+            },
+            {
+                texto: "gigante",
+                afirmacao: "Vc parece brabo mas tem um corção mito graande."
+            },
+            {
+                texto: "elfo domestico",
+                afirmacao: "Vc é uma pessoa doce mas um pouco teimosa." 
+            },
+            {
+                texto: "lobisomem",
+                afirmacao: "Vc é uma pessoa corajosa mas muito perigosa. "
             }
         ]
     },
