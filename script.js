@@ -13,7 +13,7 @@ const perguntas = [
         afirmacao: [
         "Se você prefere ler ou estudar, você pode se identificar com a mente curiosa e intelectual de Hermione Granger",
         ],
-        proxima: 1,
+        
         },
         {
         texto: "Passar tempo com amigos e explorar novos lugares",
@@ -40,9 +40,7 @@ const perguntas = [
         
         afirmacao: [
         "Se você enfrenta desafios com coragem e improviso, pode se assemelhar a Harry Potter, que muitas vezes age rapidamente em situações inesperadas",
-        
         ],
-        
         },
         ]
         },
@@ -51,22 +49,15 @@ const perguntas = [
         alternativas: [
         {
         texto: "Tentar entender todos os lados e mediar uma solução justa",
-        
         afirmacao: [
         "Se você tenta mediar e entender todos os lados, você pode se identificar com a abordagem diplomática de Minerva McGonagall",
-    
         ],
-        
         },
         {
-        
         texto: "Agir diretamente e tentar resolver o problema rapidamente",
-        
         afirmacao: [
         "Se você prefere resolver problemas diretamente, pode ter uma abordagem mais direta como a de Harry Potter",
-        
         ],
-        
         },
         ]
         },
@@ -78,16 +69,12 @@ const perguntas = [
         
         afirmacao: [
         "Se você se vê como um líder que guia e organiza, pode ter uma personalidade semelhante à de Albus Dumbledore",
-        
         ],
-        
         },
         {
         texto: "Como um membro ativo, contribuindo com ideias e apoio",
-        
         afirmacao: [
         "Se você prefere contribuir ativamente e apoiar o grupo, pode se identificar com a abordagem de Ron Weasley",
-        
         ], 
         },
         ]
