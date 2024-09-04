@@ -21,16 +21,14 @@ const perguntas = [
         "Se você gosta de socializar e explorar, pode ter um espírito aventureiro semelhante ao de Ron Weasley.",
         
         ],
-       
-        },
-        ]
+    }
+]
         },
         {
         enunciado: "Como você lida com desafios inesperados?",
         alternativas: [
         {
         texto: " Analiso a situação e planejo uma estratégia ",
-        
         afirmacao: [
         "Se você analisa e planeja, pode ter uma abordagem metódica como Hermione Granger. .",
         
@@ -188,9 +186,7 @@ const perguntas = [
         },
         ]
     }
-    ];
-            
-           
+    ];                     
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
