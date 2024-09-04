@@ -6,91 +6,191 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual a sua casa de  Hogwarts?",
+        enunciado: "Qual é a sua maneira favorita de passar o tempo livre?",
         alternativas: [
-            {
-                texto: "Grifinoria",
-                afirmacao: "Os membros da Grifinória são conhecidos por sua coragem e bravura. Eles são determinados e muitas vezes se destacam em situações que exigem grande força de caráter e coragem. O fundador, Godric Gryffindor, valorizava essas qualidades e escolhia seus alunos com base nelas."
-            },
-            {
-                texto: "lufa-lufa",
-                afirmacao: "A Lufa-Lufa é conhecida por valorizar a lealdade, a paciência e o trabalho duro. Os membros dessa casa são muitas vezes justos, leais e dedicados. Helga Hufflepuff, a fundadora, escolhia alunos que fossem trabalhadores e valorizassem a honestidade e a justiça."
-            },
-            {
-                 texto: "Sonserina",
-                afirmacao: "A Sonserina é conhecida por valorizar a ambição e a astúcia. Os membros dessa casa são muitas vezes líderes natos e possuem um forte desejo de alcançar seus objetivos. Salazar Slytherin, o fundador, buscava alunos que fossem determinados e tivessem uma grande capacidade de liderança e astúcia."
-            },
-            {
-                 texto: "Corvinal",
-                afirmacao: " A casa de Corvinal valoriza a inteligência, sabedoria e criatividade. Seus membros são conhecidos por sua busca pelo conhecimento e amor pelo aprendizado. Rowena Ravenclaw, a fundadora, escolhia alunos que demonstrassem uma mente afiada e uma paixão por descobrir e entender o mundo."
-            }
+        {
+        texto: " Ler um livro ou estudar algo novo",
+        afirmacao: [
+        "Se você prefere ler ou estudar, você pode se identificar com a mente curiosa e intelectual de Hermione Granger ",
+        ],
+        proxima: 1,
+        },
+        {
+        texto: "Passar tempo com amigos e explorar novos lugares",
+        afirmacao: [
+        "Se você gosta de socializar e explorar, pode ter um espírito aventureiro semelhante ao de Ron Weasley.",
+        
+        ],
+       
+        },
+        ]
+        },
+        {
+        enunciado: "Como você lida com desafios inesperados?",
+        alternativas: [
+        {
+        texto: " Analiso a situação e planejo uma estratégia ",
+        
+        afirmacao: [
+        "Se você analisa e planeja, pode ter uma abordagem metódica como Hermione Granger. .",
+        
+        ],
+        
+        },
+        {
+        texto: "Enfrento o desafio com coragem e improviso",
+        
+        afirmacao: [
+        "Se você enfrenta desafios com coragem e improviso, pode se assemelhar a Harry Potter, que muitas vezes age rapidamente em situações inesperadas.",
+        
+        ],
+        
+        },
+        ]
+        },
+        {
+        enunciado: "Qual é a sua abordagem para resolver conflitos?",
+        alternativas: [
+        {
+        texto: "Tentar entender todos os lados e mediar uma solução justa",
+        
+        afirmacao: [
+        "Se você tenta mediar e entender todos os lados, você pode se identificar com a abordagem diplomática de Minerva McGonagall. ",
+    
+        ],
+        
+        },
+        {
+        
+        texto: "Agir diretamente e tentar resolver o problema rapidamente",
+        
+        afirmacao: [
+        " Se você prefere resolver problemas diretamente, pode ter uma abordagem mais direta como a de Harry Potter.",
+        
+        ],
+        
+        },
+        ]
+        },
+        {
+        enunciado: "Como você prefere trabalhar em equipe?",
+        alternativas: [
+        {
+        texto: "Como um líder, guiando e organizando o grupo",
+        
+        afirmacao: [
+        " Se você se vê como um líder que guia e organiza, pode ter uma personalidade semelhante à de Albus Dumbledore. ",
+        
+        ],
+        
+        },
+        {
+        texto: "Como um membro ativo, contribuindo com ideias e apoio",
+        
+        afirmacao: [
+        "Se você prefere contribuir ativamente e apoiar o grupo, pode se identificar com a abordagem de Ron Weasley.",
+        
+        ],
+        
+        },
+        ]
+        },
+        
+        {
+        enunciado: "Como você se sente em relação a mudanças e novas experiências?",
+        alternativas: [
+        {
+        texto: "Gosto de mudanças e vejo novas experiências como oportunidades",
+        
+        afirmacao: [
+        "Se você gosta de mudanças e novas experiências, pode ter um espírito aventureiro semelhante ao de Harry Potter.",
+        
+        ],
+        
+        },
+        {
+        texto: "Prefiro manter a rotina e me sentir confortável no familiar",
+        
+        afirmacao: [
+        " Se você prefere a rotina e o familiar, pode se identificar com a abordagem mais estável de personagens como Neville Longbottom.",
+        
+        ],
+        
+        },
+        ]
+        },
+        {
+        enunciado: "Qual é o seu tipo de humor preferido?",
+        alternativas: [
+        {
+        texto: " Sarcasmo e humor inteligente",
+        
+        afirmacao: [
+        
+        "Se você gosta de sarcasmo e humor inteligente, pode se identificar com o estilo de humor de Sirius Black.",
+        
+        ],
+       
+        
+        },
+        {
+        texto: "Humor leve e situações engraçadas",
+        
+        afirmacao: [
+        " Se você prefere humor leve e situações engraçadas, pode se assemelhar ao estilo de Ron Weasley.",
+        
+        ],
+        
+        },
+        ]
+        },
+        {
+        enunciado: "Qual é o seu papel em um grupo de amigos?",
+        alternativas: [
+        {
+        texto: " O conselheiro, sempre pronto para oferecer orientação e sabedoria",
+        
+        afirmacao: [
+        " Se você é o conselheiro, oferecendo orientação e sabedoria, pode se identificar com a personalidade de Albus Dumbledore, que é conhecido por sua orientação e conhecimento.",
+        
+        ],
+        
+        },
+        {
+        texto: "O animador, que mantém o grupo divertido e leve",
+        
+        afirmacao: [
+        " Se você é o animador, mantendo o grupo divertido e leve, pode se assemelhar a personagens como Fred e George Weasley, que trazem alegria e humor para seus amigos.",
+        
+        ],
+       
+        },
+        ]
+        },
+        
+        {
+        enunciado: "Como você prefere enfrentar uma situação de crise?",
+        alternativas: [
+        {
+        texto: " Com um plano bem pensado e uma abordagem estratégica",
+        afirmacao: [
+        "Se você prefere enfrentar crises com um plano bem estruturado e uma abordagem estratégica, pode se identificar com a personalidade meticulosa de Hermione Granger. ",
+         
+        ],
+        },
+        {
+        texto: "Com improviso e adaptabilidade para lidar com o que vier",
+        
+        afirmacao: [
+        " Se você tende a ser mais flexível e adaptável, lidando com imprevistos conforme surgem, pode se assemelhar à abordagem improvisada e corajosa de Harry Potter.",
+          
+        ],
+        },
+        ]
+    }
+    ];
             
-        ]
-    },
-    {
-        enunciado: "Qual desses personagens vc mais gosta?",
-        alternativas: [
-            {
-                texto: "Harry potter",
-                afirmacao: "Corajoso, altruísta, determinado."
-            },
-            {
-                texto: "luna loovegod",
-                afirmacao: "Criativa, excêntrica, perceptiva."
-            },
-            {
-               texto: "Rony",
-                afirmacao: " Leal, corajoso, engraçado."
-            },
-            {
-                texto: "Hermione",
-                afirmacao: "Inteligente, determinada, justa"  
-            }
-        ]
-    },
-    {
-        enunciado: "Se vc recebece uma carta para Hogward, qual desses animais vc levaria? ",
-        alternativas: [
-            {
-                texto: "coruja",
-                afirmacao: "Usadas para enviar cartas e pacotes. aAs corujas são Inteligentes e capazes de encontrar qualquer destinatário."
-            },
-            {
-                texto: "rato",
-                afirmacao: "Ratos sao animais Pequenos, inteligentes e leais. Fáceis de cuidar."
-            },
-            {
-                texto: "gato",
-                afirmacao: "Gatos são Independentes, bons caçadores e sensíveis a magia negra.." 
-            },
-            {
-                texto: "sapos",
-                afirmacao: "Menos comuns, podem ser usados em poções.Os sapos são Preferidos por bruxos que gostam de animais excêntricos. "
-            }
-        ]
-    },
-     {
-        enunciado: "qual dessas criaturas magicas vc mais gosta?",
-        alternativas: [
-            {
-                texto: "hipogrifo",
-                afirmacao: "Vc e destemid mas tambem muit corajoso."
-            },
-            {
-                texto: "gigante",
-                afirmacao: "Vc parece brabo mas tem um corção mito graande."
-            },
-            {
-                texto: "elfo domestico",
-                afirmacao: "Vc é uma pessoa doce mas um pouco teimosa." 
-            },
-            {
-                texto: "lobisomem",
-                afirmacao: "Vc é uma pessoa corajosa mas muito perigosa. "
-            }
-        ]
-    },
-];
+           
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
