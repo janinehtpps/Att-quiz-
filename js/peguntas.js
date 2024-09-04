@@ -26,7 +26,7 @@ export const perguntas = [
     texto: " Analiso a situação e planejo uma estratégia ",
     
     afirmacao: [
-    "Se você analisa e planeja, pode ter uma abordagem metódica como Hermione Granger. .",
+    "Se você analisa e planeja, pode ter uma abordagem metódica como Hermione Granger.",
     
     ],
     proxima: 3,
