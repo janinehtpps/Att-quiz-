@@ -21,8 +21,8 @@ const perguntas = [
         "Se você gosta de socializar e explorar, pode ter um espírito aventureiro semelhante ao de Ron Weasley.",
         
         ],
-    }
-]
+        }
+        ]
         },
         {
         enunciado: "Como você lida com desafios inesperados?",
@@ -30,7 +30,7 @@ const perguntas = [
         {
         texto: " Analiso a situação e planejo uma estratégia ",
         afirmacao: [
-        "Se você analisa e planeja, pode ter uma abordagem metódica como Hermione Granger. .",
+        "Se você analisa e planeja, pode ter uma abordagem metódica como Hermione Granger. ",
         
         ],
         
@@ -88,12 +88,10 @@ const perguntas = [
         afirmacao: [
         "Se você prefere contribuir ativamente e apoiar o grupo, pode se identificar com a abordagem de Ron Weasley.",
         
-        ],
-        
+        ], 
         },
         ]
         },
-        
         {
         enunciado: "Como você se sente em relação a mudanças e novas experiências?",
         alternativas: [
