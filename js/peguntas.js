@@ -13,7 +13,7 @@ export const perguntas = [
     {
     texto: "Passar tempo com amigos e explorar novos lugares",
     afirmacao: [
-        "hermione",
+        "Hermione",
     "Se você gosta de socializar e explorar, pode ter um espírito aventureiro semelhante ao de Ron Weasley"
     
     ],
@@ -53,7 +53,7 @@ export const perguntas = [
     texto: "Tentar entender todos os lados e mediar uma solução justa",
     
     afirmacao: [
-        "minerva",
+        "Minerva",
     "Se você tenta mediar e entender todos os lados, você pode se identificar com a abordagem diplomática de Minerva McGonagall"
 
     ],
@@ -64,7 +64,7 @@ export const perguntas = [
     texto: "Agir diretamente e tentar resolver o problema rapidamente",
     
     afirmacao: [
-        "Harry Potter",
+        "Harry",
     "Se você prefere resolver problemas diretamente, pode ter uma abordagem mais direta como a de Harry Potter"
     
     ],
@@ -79,7 +79,7 @@ export const perguntas = [
     texto: "Como um líder, guiando e organizando o grupo",
     
     afirmacao: [
-        "Dumbledor",
+        "Alvo",
     "Se você se vê como um líder que guia e organiza, pode ter uma personalidade semelhante à de Albus Dumbledore"
     
     ],
@@ -115,7 +115,7 @@ export const perguntas = [
     texto: "Prefiro manter a rotina e me sentir confortável no familiar",
     
     afirmacao: [
-        "neville",
+        "Neville",
     "Se você prefere a rotina e o familiar, pode se identificar com a abordagem mais estável de personagens como Neville Longbottom"
     
     ],
@@ -156,7 +156,7 @@ export const perguntas = [
     texto: "O conselheiro, sempre pronto para oferecer orientação e sabedoria",
     
     afirmacao: [
-    "alvo",
+    "Alvo",
     "Se você é o conselheiro, oferecendo orientação e sabedoria, pode se identificar com a personalidade de Albus Dumbledore, que é conhecido por sua orientação e conhecimento"
     
     ],
