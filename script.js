@@ -11,6 +11,7 @@ const perguntas = [
         {
         texto: " Ler um livro ou estudar algo novo",
         afirmacao: [
+            "Hermione",
         "Se você prefere ler ou estudar, você pode se identificar com a mente curiosa e intelectual de Hermione Granger"
         ],
         
@@ -18,6 +19,7 @@ const perguntas = [
         {
         texto: "Passar tempo com amigos e explorar novos lugares",
         afirmacao: [
+            "Ron",
         "Se você gosta de socializar e explorar, pode ter um espírito aventureiro semelhante ao de Ron Weasley"
         
         ],
@@ -30,6 +32,7 @@ const perguntas = [
         {
         texto: "Analiso a situação e planejo uma estratégia",
         afirmacao: [
+            "Hermione",
         "Se você analisa e planeja, pode ter uma abordagem metódica como Hermione Granger"
         
         ],
@@ -39,6 +42,7 @@ const perguntas = [
         texto: "Enfrento o desafio com coragem e improviso",
         
         afirmacao: [
+            "Harry",
         "Se você enfrenta desafios com coragem e improviso, pode se assemelhar a Harry Potter, que muitas vezes age rapidamente em situações inesperadas"
         ],
         },
@@ -50,12 +54,14 @@ const perguntas = [
         {
         texto: "Tentar entender todos os lados e mediar uma solução justa",
         afirmacao: [
+            "Minerva",
         "Se você tenta mediar e entender todos os lados, você pode se identificar com a abordagem diplomática de Minerva McGonagall"
         ],
         },
         {
         texto: "Agir diretamente e tentar resolver o problema rapidamente",
         afirmacao: [
+            "Harry",
         "Se você prefere resolver problemas diretamente, pode ter uma abordagem mais direta como a de Harry Potter"
         ],
         },
@@ -68,12 +74,14 @@ const perguntas = [
         texto: "Como um líder, guiando e organizando o grupo",
         
         afirmacao: [
+            "Alvo",
         "Se você se vê como um líder que guia e organiza, pode ter uma personalidade semelhante à de Albus Dumbledore"
         ],
         },
         {
         texto: "Como um membro ativo, contribuindo com ideias e apoio",
         afirmacao: [
+            "Ron",
         "Se você prefere contribuir ativamente e apoiar o grupo, pode se identificar com a abordagem de Ron Weasley"
         ], 
         },
@@ -86,6 +94,7 @@ const perguntas = [
         texto: "Gosto de mudanças e vejo novas experiências como oportunidades",
         
         afirmacao: [
+            "Harry",
         "Se você gosta de mudanças e novas experiências, pode ter um espírito aventureiro semelhante ao de Harry Potter"
         
         ],
@@ -95,6 +104,7 @@ const perguntas = [
         texto: "Prefiro manter a rotina e me sentir confortável no familiar",
         
         afirmacao: [
+            "Neville",
         "Se você prefere a rotina e o familiar, pode se identificar com a abordagem mais estável de personagens como Neville Longbottom"
         
         ],
@@ -109,7 +119,7 @@ const perguntas = [
         texto: "Sarcasmo e humor inteligente",
         
         afirmacao: [
-        
+        "Sirius",
         "Se você gosta de sarcasmo e humor inteligente, pode se identificar com o estilo de humor de Sirius Black"
         
         ],
@@ -120,6 +130,7 @@ const perguntas = [
         texto: "Humor leve e situações engraçadas",
         
         afirmacao: [
+            "Ron",
         "Se você prefere humor leve e situações engraçadas, pode se assemelhar ao estilo de Ron Weasley"
         
         ],
@@ -134,6 +145,7 @@ const perguntas = [
         texto: " O conselheiro, sempre pronto para oferecer orientação e sabedoria",
         
         afirmacao: [
+            "Alvo",
         "Se você é o conselheiro, oferecendo orientação e sabedoria, pode se identificar com a personalidade de Albus Dumbledore, que é conhecido por sua orientação e conhecimento"
         
         ],
@@ -143,6 +155,7 @@ const perguntas = [
         texto: "O animador, que mantém o grupo divertido e leve",
         
         afirmacao: [
+            "Fred e Georg",
         "Se você é o animador, mantendo o grupo divertido e leve, pode se assemelhar a personagens como Fred e George Weasley, que trazem alegria e humor para seus amigos"
         
         ],
@@ -157,6 +170,7 @@ const perguntas = [
         {
         texto: " Com um plano bem pensado e uma abordagem estratégica",
         afirmacao: [
+            "Hermione",
         "Se você prefere enfrentar crises com um plano bem estruturado e uma abordagem estratégica, pode se identificar com a personalidade meticulosa de Hermione Granger"
          
         ],
@@ -165,6 +179,7 @@ const perguntas = [
         texto: "Com improviso e adaptabilidade para lidar com o que vier",
         
         afirmacao: [
+            "Harry",
         "Se você tende a ser mais flexível e adaptável, lidando com imprevistos conforme surgem, pode se assemelhar à abordagem improvisada e corajosa de Harry Potter"
           
         ],
